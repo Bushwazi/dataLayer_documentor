@@ -1,0 +1,22 @@
+{
+  "name": "levis_automator",
+  "version": "1.0.0",
+  "description": "Selenium build to read DL and AA requests and save them to a CSV",
+  "main": "automator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scrape": "node automator.js"
+  },
+  "keywords": [
+    "Selenium",
+    "nodejs"
+  ],
+  "author": "Ebiquity; Jason Lydon",
+  "license": "ISC",
+  "devDependencies": {
+    "chromedriver": "^2.37.0",
+    "csvtojson": "^1.1.9",
+    "json2csv": "^4.0.2",
+    "selenium-webdriver": "^4.0.0-alpha.1"
+  }
+}
